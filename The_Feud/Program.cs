@@ -1,7 +1,7 @@
-﻿// This is challenge work for the "C# Players Guide"
+// This is challenge work for the "C# Players Guide"
 // Level 33  "The Feud" Challenge
-// This is a challenge to resolve conflicts in Naming Spaces
-// Used both Aliases and FQ Names
+//This is a challenge to resolve duplicate naming conflicts across Namespaces
+//Solution used provided both Aliases and FQ Names
 
 using IField;
 using McDroid;
