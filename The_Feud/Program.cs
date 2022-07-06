@@ -6,19 +6,19 @@
 using IField;
 using McDroid;
 
-//Aliase for IField Pig
+//Making Aliase for each Pig
 using IFieldPig = IField.Pig;
-IFieldPig IPig = new IFieldPig();
-
-//Aliase for McDroid Pig
 using McDroidPig = McDroid.Pig;
+
+// Using Aliase to make each Pig
+IFieldPig IPig = new IFieldPig();
 McDroidPig MPig = new McDroidPig();
 
-//Fully Qualified Name
+//Fully Qualified Name for Goats
 IField.Goat IGoat = new IField.Goat();
 McDroid.Goat MGoat = new McDroid.Goat();
 
-//Non Shared Names
+//Non Shared Names for Sheep and Cow
 Sheep ISheep = new Sheep();
 Cow MCow = new Cow();
 
