@@ -6,11 +6,12 @@
 using IField;
 using McDroid;
 
-//Aliases
+//Aliase for IField Pig
 using IFieldPig = IField.Pig;
-using McDroidPig = McDroid.Pig;
-
 IFieldPig IPig = new IFieldPig();
+
+//Aliase for McDroid Pig
+using McDroidPig = McDroid.Pig;
 McDroidPig MPig = new McDroidPig();
 
 //Fully Qualified Name
@@ -21,6 +22,7 @@ McDroid.Goat MGoat = new McDroid.Goat();
 Sheep ISheep = new Sheep();
 Cow MCow = new Cow();
 
+//Wrap up
 Console.WriteLine("All object created with no errors");
 Console.WriteLine("Press any key to end the program");
 Console.ReadKey();
